@@ -38,6 +38,16 @@ const Navbar = () => {
               <a href={`#${link.id}`}>{link.title}</a>
             </li>
           ))}
+          <li>
+            <a
+              href="https://drive.google.com/file/d/1k1R92mFxU5YaL-UxDRUiF3tBEJlEiNYH/view?usp=sharing"
+              download
+              target="_blank"
+              className="text-secondary hover:text-white text-[18px] font-medium cursor-pointer"
+            >
+              Download CV
+            </a>
+          </li>
         </ul>
 
         <div className="sm:hidden flex flex-1 justify-end items-center">
@@ -68,6 +78,20 @@ const Navbar = () => {
                   <a href={`#${link.id}`}>{link.title}</a>
                 </li>
               ))}
+              <li>
+                <a
+                  href="https://drive.google.com/file/d/1k1R92mFxU5YaL-UxDRUiF3tBEJlEiNYH/view?usp=sharing"
+                  download
+                  target="_blank"
+                  className="text-secondary hover:text-white text-[18px] font-medium cursor-pointer"
+                  onClick={() => {
+                    setActive("");
+                    setToggle(!toggle);
+                  }}
+                >
+                  Download CV
+                </a>
+              </li>
             </ul>
           </div>
         </div>
@@ -77,3 +101,5 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
+// https://drive.google.com/file/d/1k1R92mFxU5YaL-UxDRUiF3tBEJlEiNYH/view?usp=sharing

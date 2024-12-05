@@ -1,10 +1,8 @@
 import {
-  mobile,
   backend,
   creator,
   web,
   javascript,
-  typescript,
   html,
   css,
   reactjs,
@@ -31,8 +29,12 @@ export const navLinks = [
     title: "About",
   },
   {
-    id: "work",
-    title: "Work",
+    id: "experience",
+    title: "Experience",
+  },
+  {
+    id: "projects",
+    title: "Projects",
   },
   {
     id: "contact",
