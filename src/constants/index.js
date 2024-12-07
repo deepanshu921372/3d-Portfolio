@@ -19,6 +19,7 @@ import {
   golf,
   virtualassistant,
   employee,
+  famStyle,
   todo,
   threejs,
 } from "../assets";
@@ -159,6 +160,32 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "FamStyle | Clothing Store",
+    description:
+      "A modern clothing e-commerce platform with seamless shopping experience and admin inventory management system.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "text-pink-800",
+      },
+      {
+        name: "nodejs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "text-cyan-500",
+      },
+    ],
+    image: famStyle,
+    source_code_link: "https://github.com/deepanshu921372/e-commerce",
+    live_link: "https://famstyle.vercel.app/",
+  },
   {
     name: "Book Heaven",
     description:

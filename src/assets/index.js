@@ -28,6 +28,7 @@ import bookheaven from "./bookheaven.png";
 import golf from "./golf.png";
 import textutils from "./textutils.jpeg";
 import todo from "./todo.jpeg";
+import famStyle from "./famStyle.png";
 import virtualassistant from "./nova.png";
 import employee from "./ems.png";
 
@@ -58,6 +59,7 @@ export {
   golf,
   textutils,
   todo,
+  famStyle,
   virtualassistant,
   employee,
 };
