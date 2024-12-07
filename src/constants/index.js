@@ -325,24 +325,6 @@ const projects = [
     source_code_link: "https://github.com/deepanshu921372/TextUtils-React",
     // live_link: "https://dsgolfclub.netlify.app/",
   },
-  {
-    name: "To Do List App",
-    description:
-      "Built a feature-rich ToDoList app with real-time updates and task management functionalities.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Material-UI",
-        color: "text-yellow-500",
-      },
-    ],
-    image: todo,
-    source_code_link: "https://github.com/deepanshu921372/ToDoList",
-    // live_link: "https://dsgolfclub.netlify.app/",
-  },
 ];
 
 export { services, technologies, experiences, testimonials, projects };
