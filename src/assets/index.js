@@ -27,7 +27,7 @@ import bookheaven from "./bookHeaven.png";
 import golf from "./golf.png";
 import textutils from "./textutils.jpeg";
 import todo from "./todo.jpeg";
-import famStyle from "./famStyle.png";
+import famStyle from "./famstyle.png";
 import virtualassistant from "./nova.png";
 import employee from "./ems.png";
 
