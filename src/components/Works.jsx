@@ -80,7 +80,12 @@ const ProjectCard = ({
 const Works = () => {
   return (
     <>
-      <motion.div className="opacity-100" variants={textVariant()}>
+      <motion.div
+        variants={textVariant()}
+        initial="hidden"
+        animate="show"
+        className="opacity-100"
+      >
         <p className={styles.sectionSubText}>My Works</p>
         <h3 className={styles.sectionHeadText}>Projects.</h3>
       </motion.div>
@@ -88,6 +93,8 @@ const Works = () => {
       <div className="w-full flex">
         <motion.p
           variants={fadeIn("", "", 0.1, 1)}
+          initial="hidden"
+          animate="show"
           className="mt-3 opacity-50 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
           Following projects showcases my skills and experience through
