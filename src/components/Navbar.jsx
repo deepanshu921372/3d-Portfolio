@@ -40,7 +40,7 @@ const Navbar = () => {
           ))}
           <li>
             <a
-              href="https://drive.google.com/file/d/1k1R92mFxU5YaL-UxDRUiF3tBEJlEiNYH/view?usp=sharing"
+              href="https://drive.google.com/file/d/1XFh6oX-3TGtCOzJaubiIBeOZekG5zDm9/view?usp=sharing"
               download
               target="_blank"
               className="text-secondary hover:text-white text-[18px] font-medium cursor-pointer"
@@ -80,7 +80,7 @@ const Navbar = () => {
               ))}
               <li>
                 <a
-                  href="https://drive.google.com/file/d/1k1R92mFxU5YaL-UxDRUiF3tBEJlEiNYH/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1XFh6oX-3TGtCOzJaubiIBeOZekG5zDm9/view?usp=sharing"
                   download
                   target="_blank"
                   className="text-secondary hover:text-white text-[18px] font-medium cursor-pointer"
@@ -102,4 +102,4 @@ const Navbar = () => {
 
 export default Navbar;
 
-// https://drive.google.com/file/d/1k1R92mFxU5YaL-UxDRUiF3tBEJlEiNYH/view?usp=sharing
+// https://drive.google.com/file/d/1XFh6oX-3TGtCOzJaubiIBeOZekG5zDm9/view?usp=sharing
