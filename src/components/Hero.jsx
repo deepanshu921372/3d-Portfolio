@@ -47,7 +47,7 @@ const Hero = () => {
 
 
       {isMobile && (
-        <div className="w-full h-[60vh] flex items-end justify-center">
+        <div className="w-full h-[75vh] lg:h-[60vh] flex items-end justify-center">
           <img 
             src={computer}
             alt="Computer"
