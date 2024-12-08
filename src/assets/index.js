@@ -23,8 +23,7 @@ import threejs from "./tech/threejs.svg";
 
 import _999 from "./company/999.png";
 
-
-import bookheaven from "./bookheaven.png";
+import bookheaven from "./bookHeaven.png";
 import golf from "./golf.png";
 import textutils from "./textutils.jpeg";
 import todo from "./todo.jpeg";
