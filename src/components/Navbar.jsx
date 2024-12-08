@@ -102,4 +102,3 @@ const Navbar = () => {
 
 export default Navbar;
 
-// https://drive.google.com/file/d/1MXQJcppE66Q64jJxu9t21Z5OhBLo18LK/view?usp=sharing
