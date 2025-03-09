@@ -20,7 +20,6 @@ import {
   virtualassistant,
   employee,
   famStyle,
-  todo,
   threejs,
 } from "../assets";
 
@@ -115,6 +114,19 @@ const technologies = [
 
 const experiences = [
   {
+    link: "https://www.linkedin.com/company/codtechitsolutions/",
+    title: "Full-Stack Web Developer Intern",
+    company_name: "CODTECH IT SOLUTIONS",
+    icon: "./src/assets/company/codeTech.jpeg",
+    iconBg: "#383E56",
+    date: "Dec 2024 - Jan 2025",
+    location: "· Remote",
+    points: [
+      "Successfully developed a real-time collaborative document editor using React, Node.js, and WebSockets.",
+      "Gained hands-on experience in full-stack development, teamwork, and problem-solving in a professional environment.",
+    ],
+  },
+  {
     link: "https://www.linkedin.com/company/999logistics/",
     title: "Web Developer Intern",
     company_name: "999Logistics",
@@ -123,10 +135,9 @@ const experiences = [
     date: "Apr 2024 - Jun 2024",
     location: "Bengaluru, Karnataka, India · Remote",
     points: [
-      "Increased user satisfaction by 25% through the development of a responsive frontend using React.js and Material-UI, resulting in improved navigation and interface design.",
-      "Utilized Amazon S3 for efficient data storage, enhancing the application's scalability and performance.",
-      "Utilized Sequelize to overhaul database structure, leading to a 60% decrease in manual errors and 35% faster data retrieval, streamlining operations.",
-      "Created an automated employee ID card system, decreasing processing time by X hours, leading to a more streamlined and time-saving employee identification process.",
+      "Enhanced user experience with a responsive React.js & MUI frontend.",
+      "Improved scalability and performance using Amazon S3.",
+      "Automated employee ID processing, saving time and streamlining operations.",
       "Optimized database structure, decreasing storage space, leading to cost savings and improved system efficiency.",
     ],
   },
@@ -160,6 +171,68 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "Employee Management Web App",
+    description:
+      "Streamlined employee registration with unique ID card generation using Material-UI, React.js, Node.js, Postman, MongoDB, and Amazon S3.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Amazon Web Services (AWS)",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "Postman API",
+        color: "white-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Material-UI",
+        color: "text-yellow-500",
+      },
+    ],
+    image: employee,
+    source_code_link:
+      "https://github.com/deepanshu921372/999-manager-app-id-card",
+    live_link: "https://admin.999logistics.in/",
+  },
+  {
+    name: "DeeCare - Full-Stack Hospital Management System",
+    description:
+      "DeeCare is a responsive Hospital Management System using MongoDB, Express.js, React, Node.js, and Cloudinary for appointment booking and doctor management.",
+    tags: [
+    {
+        name: "React.js",
+        color: "blue-text-gradient",
+    },
+    {
+        name: "Tailwind CSS",
+        color: "text-cyan-500",
+    },
+    {
+        name: "Express",
+        color: "text-gray-500",
+    },
+    {
+        name: "MongoDB",
+        color: "green-text-gradient",
+    },
+    {
+        name: "Node.js",
+        color: "green-text-gradient",
+    },
+
+    ],
+    image: "./src/assets/deecare.jpeg",
+    source_code_link: "https://github.com/deepanshu921372/HMS_Frontend_And_Admin",
+    live_link: "https://deecare-hms.netlify.app",
+  },
   {
     name: "FamStyle | Clothing Store",
     description:
@@ -225,37 +298,6 @@ const projects = [
     live_link: "https://bookheavenstore.netlify.app/",
   },
   {
-    name: "Employee Management Web App",
-    description:
-      "Streamlined employee registration with unique ID card generation using Material-UI, React.js, Node.js, Postman, MongoDB, and Amazon S3.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Amazon Web Services (AWS)",
-        color: "orange-text-gradient",
-      },
-      {
-        name: "Postman API",
-        color: "white-text-gradient",
-      },
-      {
-        name: "MongoDB",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Material-UI",
-        color: "text-yellow-500",
-      },
-    ],
-    image: employee,
-    source_code_link:
-      "https://github.com/deepanshu921372/999-manager-app-id-card",
-    live_link: "https://admin.999logistics.in/",
-  },
-  {
     name: "Virtual Assistant Nova",
     description:
       "Created Virtual Assistant Nova, a web-based application that lets users interact with a smart voice assistant using natural language. Built with HTML, CSS, and JavaScript, Nova answers questions, opens websites.",
@@ -280,32 +322,6 @@ const projects = [
     image: virtualassistant,
     source_code_link: "https://github.com/deepanshu921372/VirtualAssistant",
     live_link: "https://virtualassistantnova.netlify.app/",
-  },
-  {
-    name: "DS Golf Club",
-    description:
-      "Developed an animated golf website using HTML, CSS, JavaScript, and GSAP to create dynamic and engaging user experiences.",
-    tags: [
-      {
-        name: "HTML5",
-        color: "text-violet-500",
-      },
-      {
-        name: "Cascading Style Sheets (CSS)",
-        color: "text-teal-500",
-      },
-      {
-        name: "JavaScript",
-        color: "text-cyan-500",
-      },
-      {
-        name: "GreenSock Animation Platform (GSAP)",
-        color: "text-red-500",
-      },
-    ],
-    image: golf,
-    source_code_link: "https://github.com/deepanshu921372/Golf",
-    live_link: "https://dsgolfclub.netlify.app/",
   },
   {
     name: "TextUtils",
