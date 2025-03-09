@@ -20,6 +20,8 @@ import {
   virtualassistant,
   employee,
   famStyle,
+  deecare,
+  codeTech,
   threejs,
 } from "../assets";
 
@@ -117,7 +119,7 @@ const experiences = [
     link: "https://www.linkedin.com/company/codtechitsolutions/",
     title: "Full-Stack Web Developer Intern",
     company_name: "CODTECH IT SOLUTIONS",
-    icon: "./src/assets/company/codeTech.jpeg",
+    icon: codeTech,
     iconBg: "#383E56",
     date: "Dec 2024 - Jan 2025",
     location: "· Remote",
@@ -229,7 +231,7 @@ const projects = [
     },
 
     ],
-    image: "./src/assets/deecare.jpeg",
+    image: deecare,
     source_code_link: "https://github.com/deepanshu921372/HMS_Frontend_And_Admin",
     live_link: "https://deecare-hms.netlify.app",
   },

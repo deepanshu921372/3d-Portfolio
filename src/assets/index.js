@@ -30,6 +30,8 @@ import todo from "./todo.jpeg";
 import famStyle from "./famstyle.png";
 import virtualassistant from "./nova.png";
 import employee from "./ems.png";
+import deecare from "./deecare.jpeg";
+import codeTech from "./company/codeTech.jpeg";
 
 export {
   logo,
@@ -61,4 +63,6 @@ export {
   famStyle,
   virtualassistant,
   employee,
+  deecare,
+  codeTech,
 };
